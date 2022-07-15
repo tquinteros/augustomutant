@@ -21,6 +21,16 @@ body{
 
 }
 
+.cards{
+    border: solid 1px white;
+    background-color:#2b2c28;
+}
+
+.acordeon{
+    color: white;
+    background-color: #2b2c28;
+}
+
 .carousel{
     margin: 0 auto;
 }
