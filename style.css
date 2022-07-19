@@ -1,0 +1,106 @@
+.navbar-custom{
+    background: linear-gradient(gray, #2b2c28);
+}
+
+body{
+    background-color: #2b2c28;
+}
+
+/* .carousel-custom{
+    width: 50%;
+    margin-top: 20px;
+} */
+
+/* .title-index{
+    margin: 20px 0 0 0;
+    text-align: center;
+} */
+
+/* .p-description-index{
+    margin-top: 20px;
+    text-align: center;
+} */
+
+/* .title-plans{
+    text-align: center;
+    margin: 20px;
+} */
+
+/* .p-description-plans{
+    margin: 0 20px 20px 20px;
+    text-align: center;
+} */
+
+footer{
+    background: linear-gradient(#2b2c28, gray);
+    /* margin-top: 20px; */
+}
+
+/* .footer-custom{
+    display: flex;
+    justify-content: center;
+} */
+
+.bg-custom{
+    background-color: #2b2c28;
+}
+
+.bg-custom-border{
+    border: 2px solid white;
+    background-color: #2b2c28;
+}
+
+/* .card-price{
+    text-align: center;
+    font-size: 2em;
+} */
+
+/* .card-title{
+    text-align: center;
+} */
+
+.accordion-button:not(.collapsed){
+    background-color: #2b2c28;
+}
+
+.btn-custom{
+    background-color: grey;
+}
+
+.iframe-custom{
+    margin: 30px auto;
+    display: block;
+}
+
+.instagram-logo{
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.instagram-logo:hover{
+    opacity: 1;
+}
+
+.facebook-logo{
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.facebook-logo:hover{
+    opacity: 1;
+}
+
+.header-logo{
+    transition: .5s;
+}
+
+.header-logo:hover{
+    transform: scale(1.2);
+}
+
+.text-logo{
+    transition: .5s;
+}
+
+
+
