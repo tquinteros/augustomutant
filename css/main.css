@@ -1,0 +1,12 @@
+body {
+  background-color: #2b2c28; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.navbar-custom {
+  background: linear-gradient(gray, #2b2c28); }
+
+.footer {
+  background: linear-gradient(#2b2c28, gray); }

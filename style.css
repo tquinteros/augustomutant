@@ -1,10 +1,10 @@
-.navbar-custom{
+/* .navbar-custom{
     background: linear-gradient(gray, #2b2c28);
-}
+} */
 
-body{
+/* body{
     background-color: #2b2c28;
-}
+} */
 
 /* .carousel-custom{
     width: 50%;
@@ -31,10 +31,10 @@ body{
     text-align: center;
 } */
 
-footer{
+/* footer{
     background: linear-gradient(#2b2c28, gray);
-    /* margin-top: 20px; */
-}
+    margin-top: 20px;
+} */
 
 /* .footer-custom{
     display: flex;
@@ -71,36 +71,4 @@ footer{
     margin: 30px auto;
     display: block;
 }
-
-.instagram-logo{
-    opacity: 0.8;
-    transition: 0.4s;
-}
-
-.instagram-logo:hover{
-    opacity: 1;
-}
-
-.facebook-logo{
-    opacity: 0.8;
-    transition: 0.4s;
-}
-
-.facebook-logo:hover{
-    opacity: 1;
-}
-
-.header-logo{
-    transition: .5s;
-}
-
-.header-logo:hover{
-    transform: scale(1.2);
-}
-
-.text-logo{
-    transition: .5s;
-}
-
-
 
