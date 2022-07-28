@@ -1,0 +1,37 @@
+@import './base/extend';
+
+body{
+    background-color: map-get($colores,"background-color");
+}
+
+.bg-custom{
+    background-color: map-get($colores,"background-color");
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #2b2c28;
+}
+
+.iframe-custom{
+    margin: 30px auto;
+    display: block;
+}
+
+.btn-custom-submit{
+    @extend %button;
+    @include size-button();
+}
+
+.btn-custom-reset{
+    @extend %button;
+    @include size-button();
+}
+
+.btn-custom-reset:hover{
+    opacity: 1;
+}
+
+.btn-custom-submit:hover{
+    opacity: 1;
+}
+

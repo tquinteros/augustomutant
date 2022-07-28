@@ -1,5 +1,31 @@
+.btn-custom-submit, .btn-custom-reset {
+  background-color: gray;
+  opacity: 0.7; }
+
 body {
   background-color: #2b2c28; }
+
+.bg-custom {
+  background-color: #2b2c28; }
+
+.accordion-button:not(.collapsed) {
+  background-color: #2b2c28; }
+
+.iframe-custom {
+  margin: 30px auto;
+  display: block; }
+
+.btn-custom-submit {
+  width: 40%; }
+
+.btn-custom-reset {
+  width: 40%; }
+
+.btn-custom-reset:hover {
+  opacity: 1; }
+
+.btn-custom-submit:hover {
+  opacity: 1; }
 
 * {
   margin: 0;
@@ -10,3 +36,7 @@ body {
 
 .footer {
   background: linear-gradient(#2b2c28, gray); }
+
+.btn-custom-submit, .btn-custom-reset {
+  background-color: gray;
+  opacity: 0.7; }

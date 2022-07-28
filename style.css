@@ -41,14 +41,14 @@
     justify-content: center;
 } */
 
-.bg-custom{
+/* .bg-custom{
     background-color: #2b2c28;
-}
+} */
 
-.bg-custom-border{
+/* .bg-custom-border{
     border: 2px solid white;
     background-color: #2b2c28;
-}
+} */
 
 /* .card-price{
     text-align: center;
@@ -59,16 +59,16 @@
     text-align: center;
 } */
 
-.accordion-button:not(.collapsed){
+/* .accordion-button:not(.collapsed){
     background-color: #2b2c28;
-}
+} */
 
-.btn-custom{
+/* .btn-custom{
     background-color: grey;
-}
+} */
 
-.iframe-custom{
+/* .iframe-custom{
     margin: 30px auto;
     display: block;
-}
+} */
 
