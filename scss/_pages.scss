@@ -9,7 +9,7 @@ body{
 }
 
 .accordion-button:not(.collapsed){
-    background-color: #2b2c28;
+    background-color: #358126;
 }
 
 .iframe-custom{
@@ -19,19 +19,50 @@ body{
 
 .btn-custom-submit{
     @extend %button;
-    @include size-button();
+    // @include size-button();
 }
 
 .btn-custom-reset{
     @extend %button;
-    @include size-button();
+    // @include size-button();
 }
 
 .btn-custom-reset:hover{
     opacity: 1;
+    color: #111;
+    background: #4c9e3c;
+    box-shadow: 0 0 50px #3d7c30;
 }
 
 .btn-custom-submit:hover{
     opacity: 1;
+    color: #111;
+    background: #4c9e3c;
+    box-shadow: 0 0 50px #3d7c30;
 }
 
+
+// Transición de carga en cada página
+.transit {
+    animation: transition 0.75s;
+}
+
+@keyframes transition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+// INPUT LABELS
+.floatingPlaceholders {
+    color: black;
+}
+
+// .bg-custom{
+//     background-color: map-get($colores,"background-green");
+// }

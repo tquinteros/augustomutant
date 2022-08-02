@@ -7,6 +7,25 @@
     background: map-get($colores,"gradientgtb");
 }
 
-.footer{
+footer{
     background: map-get($colores,"gradientbtg")
+}
+
+.border-custom {
+    border: 4px double #4c9e3c;
+    border-radius: 10px;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #008000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+header ul li a:hover{
+    background: #4c9e3c;
+    border-radius: 10px;
 }
